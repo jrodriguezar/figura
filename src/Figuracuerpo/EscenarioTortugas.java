@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package EjemploBase;
+package Figuracuerpo;
 
 import ch.aplu.turtle.Turtle;
 import ch.aplu.turtle.TurtleFrame;
@@ -20,13 +20,13 @@ public class EscenarioTortugas extends TurtleFrame{
     public EscenarioTortugas() {
       tortuga1 = new Turtle(this);
       tortuga1.setColor(Color.yellow);
-      tortuga1.setPos(0, 0);
+      tortuga1.setPos(-32, -60);
       tortuga2 = new Turtle(this);
-      tortuga2.setPos(-85, -60);
+      tortuga2.setPos(-89, -60);
     }
     
     public void iniciar(){
-       HiloBase hilo = new HiloBase(tortuga1);
+       Tortuga2 hilo = new Tortuga2(tortuga1);
        hilo.start();
        
        Triangulo hilo2 = new Triangulo(tortuga2);
