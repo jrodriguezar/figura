@@ -20,7 +20,7 @@ public class Tortuga2 extends Thread{
         this.tortuga.left(20);
         this.tortuga.forward(5);
         this.tortuga.right(70);
-        this.tortuga.forward(15);
+        this.tortuga.forward(20);
         this.tortuga.left(50);
         this.tortuga.penDown();
         
@@ -33,7 +33,7 @@ public class Tortuga2 extends Thread{
         this.tortuga.penUp();
         
         this.tortuga.left(100);
-        this.tortuga.forward(76);
+        this.tortuga.forward(84);
         this.tortuga.right(90);
         this.tortuga.penDown();
         this.tortuga.left(135);
@@ -44,26 +44,27 @@ public class Tortuga2 extends Thread{
         this.tortuga.forward(25.8965397); 
         this.tortuga.penUp();
         this.tortuga.right(100);
-        this.tortuga.forward(9.2194340);
+        
+        System.out.println("X: " + this.tortuga.getX() + "Y: " + this.tortuga.getY());
+        
+        this.tortuga.forward(13.3892119);
         this.tortuga.right(90);
-        this.tortuga.forward(14.42513006);
+        this.tortuga.forward(17.6390681);
         this.tortuga.penDown();
-        this.tortuga.forward(11);
+        this.tortuga.forward(8);
         this.tortuga.left(90);
-        this.tortuga.forward(15);
+        this.tortuga.forward(20);
         this.tortuga.left(90);
-        this.tortuga.forward(11);
+        this.tortuga.forward(8);
         this.tortuga.right(90);
-        this.tortuga.forward(27);
+        this.tortuga.forward(17);
         this.tortuga.right(90);
-        this.tortuga.forward(11);
+        this.tortuga.forward(8);
         this.tortuga.left(90);
-        this.tortuga.forward(15);
+        this.tortuga.forward(20);
         this.tortuga.left(90);
-        this.tortuga.forward(11);
+        this.tortuga.forward(8);
         this.tortuga.penUp();
         this.tortuga.forward(1000);
-    }
-    
-    
+    }   
 }
